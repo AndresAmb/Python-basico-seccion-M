@@ -1,8 +1,8 @@
 print("--------------------------------------------------------------------------------")
-contraseña=input("Ingrese una nueva contraseña: ").upper()
-vcontraseña=input("Verifique su contraseña: ").upper()
+contraseña=input("Ingrese una nueva contraseña: ")
+vcontraseña=input("Verifique su contraseña: ")
 while contraseña!=vcontraseña:
-    vcontraseña=input("Las contraseñas no coinciden, vuelva a intentarlo: ").upper()
+    vcontraseña=input("Las contraseñas no coinciden, vuelva a intentarlo: ")
 print("Contraseña verificada")
 print("--------------------------------------------------------------------------------")
 nEntrad=input("Nueva entrada (Si/No): ").upper()
